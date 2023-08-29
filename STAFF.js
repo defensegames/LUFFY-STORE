@@ -15,7 +15,7 @@ document.getElementById('applyForm').addEventListener('submit', async function(e
         { name: 'الخبرات', value: formData.get('experience') },
         { name: 'البلد', value: formData.get('city') },
         { name: 'الايميل', value: formData.get('email') },
-        { name: 'بماذا سيفيدنا', value: formData.get('whatyouwilldo') },
+        { name: 'كم سنه خبره', value: formData.get('whatyouwilldo') },
         { name: 'اسم حسابه', value: formData.get('user') },
         { name: 'المجال', value: formData.get('thing') }
       ]
