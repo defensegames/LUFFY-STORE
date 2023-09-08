@@ -17,7 +17,8 @@ document.getElementById('applyForm').addEventListener('submit', async function(e
         { name: 'الايميل', value: formData.get('email') },
         { name: 'كم سنه خبره', value: formData.get('whatyouwilldo') },
         { name: 'اسم حسابه', value: formData.get('user') },
-        { name: 'المجال', value: formData.get('thing') }
+        { name: 'المجال', value: formData.get('thing') }, 
+        { name: 'الفرع', value: formData.get('server') } 
       ]
     }]
   };
